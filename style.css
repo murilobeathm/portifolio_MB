@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(2, 2, 45);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+
+li:hover{
+    background-color: rgb(19, 165, 58);
+}
+
+
+#content{
+   text-align: center;
+    margin-top: 18%;
+}
+
+#img01{
+    width: 190px;
+    height: 220px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*About page*/
+
+#section{
+  padding-top: 10%;
+  padding-left: 13%;
+  padding-right: 13%;  
+  text-align: center;  
+}
+
+#img_carrossel{
+    width: 1200px;
+    height: 450px;
+    padding-left: 35%;
+    padding-right: 35%;
+    
+}
+
+/*Academic page*/
+#academic{
+  padding-top: 11%;
+  padding-left: 13%;
+  padding-right: 13%;  
+  text-align: center; 
+}
+
+.card-header{
+    background-color: rgba(52,58,64,255);
+}
+
+.btn{
+    color: white;
+}
+
+.card-body{
+    color: black;
+}
+
+#imgCertifications{
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 400px;
+}
+
+#footerAcademic{
+    padding-top: 10px;
+}
+.content-right {
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    
+}
+
+/* Software testing page*/
+
+.negrito {
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Responsive*/
+@media (min-width: 600px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    nav ul li {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
